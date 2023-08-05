@@ -1,0 +1,13 @@
+Public Class FormValUsu
+
+    Private Sub btnRegistrarse_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnRegistrarse.Click
+
+        If MaskedTextBox1.Text = "555-55-1212" And MaskedTextBox2.Text = "54321" Then
+
+            MsgBox("!Bienvenido al Sistema¡")
+        Else
+            MsgBox("Numero Irreconocible")
+        End If
+
+    End Sub
+End Class
